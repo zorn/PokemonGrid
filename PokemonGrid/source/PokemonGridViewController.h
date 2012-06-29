@@ -10,4 +10,6 @@
 
 @interface PokemonGridViewController : UICollectionViewController <UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout>
 
+@property (strong) NSMutableArray *pokemonCollection;
+
 @end

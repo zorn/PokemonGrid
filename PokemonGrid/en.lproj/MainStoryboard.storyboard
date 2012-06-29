@@ -12,32 +12,33 @@
                         <rect key="frame" x="0.0" y="20" width="768" height="1004"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="g4f-ix-K1V">
-                            <size key="itemSize" width="79" height="79"/>
+                            <size key="itemSize" width="120" height="120"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PokemonCollectionCell" id="6WL-sw-TUm">
-                                <rect key="frame" x="0.0" y="0.0" width="79" height="79"/>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PokemonCollectionCell" id="6WL-sw-TUm" customClass="PokemonCollectionViewCell">
+                                <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                    <rect key="frame" x="0.0" y="0.0" width="79" height="79"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="120" height="120"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label translatesAutoresizingMaskIntoConstraints="NO" opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" text="Label" adjustsFontSizeToFit="NO" autoshrinkMode="none" id="sCB-Tb-hrC">
-                                            <nil key="highlightedColor"/>
-                                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        </label>
+                                        <imageView translatesAutoresizingMaskIntoConstraints="NO" userInteractionEnabled="NO" contentMode="center" id="klQ-MV-a8b"/>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
                                 <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstItem="sCB-Tb-hrC" firstAttribute="centerY" secondItem="6WL-sw-TUm" secondAttribute="centerY" type="default" id="5IL-r9-MlY"/>
-                                    <constraint firstItem="sCB-Tb-hrC" firstAttribute="centerX" secondItem="6WL-sw-TUm" secondAttribute="centerX" type="default" id="E7G-nQ-bqT"/>
+                                    <constraint firstItem="klQ-MV-a8b" firstAttribute="top" secondItem="6WL-sw-TUm" secondAttribute="top" type="default" id="PRh-3u-VeI"/>
+                                    <constraint firstItem="klQ-MV-a8b" firstAttribute="leading" secondItem="6WL-sw-TUm" secondAttribute="leading" type="default" id="gdH-82-vAD"/>
+                                    <constraint firstItem="klQ-MV-a8b" firstAttribute="trailing" secondItem="6WL-sw-TUm" secondAttribute="trailing" type="default" id="kcz-Bx-DgN"/>
+                                    <constraint firstItem="klQ-MV-a8b" firstAttribute="bottom" secondItem="6WL-sw-TUm" secondAttribute="bottom" type="default" id="t3d-zX-ury"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="spriteImageView" destination="klQ-MV-a8b" id="ac7-ie-kwR"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
@@ -54,6 +55,12 @@
     <classes>
         <class className="NSLayoutConstraint" superclassName="NSObject">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/NSLayoutConstraint.h"/>
+        </class>
+        <class className="PokemonCollectionViewCell" superclassName="UICollectionViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PokemonCollectionViewCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="spriteImageView" candidateClass="UIImageView"/>
+            </relationships>
         </class>
         <class className="PokemonGridViewController" superclassName="UICollectionViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PokemonGridViewController.h"/>
