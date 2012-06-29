@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1AAB6502159E28AE00B1D72C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAB6501159E28AE00B1D72C /* UIKit.framework */; };
+		1AAB6504159E28AE00B1D72C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAB6503159E28AE00B1D72C /* Foundation.framework */; };
+		1AAB6506159E28AE00B1D72C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAB6505159E28AE00B1D72C /* CoreGraphics.framework */; };
+		1AAB650C159E28AE00B1D72C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AAB650A159E28AE00B1D72C /* InfoPlist.strings */; };
+		1AAB650E159E28AE00B1D72C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB650D159E28AE00B1D72C /* main.m */; };
+		1AAB6512159E28AE00B1D72C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB6511159E28AE00B1D72C /* AppDelegate.m */; };
+		1AAB6515159E28AE00B1D72C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AAB6513159E28AE00B1D72C /* MainStoryboard.storyboard */; };
+		1AAB6518159E28AE00B1D72C /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB6517159E28AE00B1D72C /* MainViewController.m */; };
+		1AAB651B159E28AE00B1D72C /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB651A159E28AE00B1D72C /* FlipsideViewController.m */; };
+		1AAB6523159E28AE00B1D72C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAB6522159E28AE00B1D72C /* SenTestingKit.framework */; };
+		1AAB6524159E28AE00B1D72C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAB6501159E28AE00B1D72C /* UIKit.framework */; };
+		1AAB6525159E28AE00B1D72C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAB6503159E28AE00B1D72C /* Foundation.framework */; };
+		1AAB652D159E28AE00B1D72C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AAB652B159E28AE00B1D72C /* InfoPlist.strings */; };
+		1AAB6530159E28AE00B1D72C /* PokemonGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB652F159E28AE00B1D72C /* PokemonGridTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AAB6526159E28AE00B1D72C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AAB64F4159E28AD00B1D72C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AAB64FC159E28AD00B1D72C;
+			remoteInfo = PokemonGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AAB64FD159E28AD00B1D72C /* PokemonGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokemonGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AAB6501159E28AE00B1D72C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1AAB6503159E28AE00B1D72C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1AAB6505159E28AE00B1D72C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1AAB6509159E28AE00B1D72C /* PokemonGrid-Info.plist */ = {isa = PBXFileReference; path = "PokemonGrid-Info.plist"; sourceTree = "<group>"; };
+		1AAB650B159E28AE00B1D72C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AAB650D159E28AE00B1D72C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AAB650F159E28AE00B1D72C /* PokemonGrid-Prefix.pch */ = {isa = PBXFileReference; path = "PokemonGrid-Prefix.pch"; sourceTree = "<group>"; };
+		1AAB6510159E28AE00B1D72C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AAB6511159E28AE00B1D72C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1AAB6514159E28AE00B1D72C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		1AAB6516159E28AE00B1D72C /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		1AAB6517159E28AE00B1D72C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		1AAB6519159E28AE00B1D72C /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		1AAB651A159E28AE00B1D72C /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+		1AAB6521159E28AE00B1D72C /* PokemonGridTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonGridTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AAB6522159E28AE00B1D72C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		1AAB652A159E28AE00B1D72C /* PokemonGridTests-Info.plist */ = {isa = PBXFileReference; path = "PokemonGridTests-Info.plist"; sourceTree = "<group>"; };
+		1AAB652C159E28AE00B1D72C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1AAB652E159E28AE00B1D72C /* PokemonGridTests.h */ = {isa = PBXFileReference; path = PokemonGridTests.h; sourceTree = "<group>"; };
+		1AAB652F159E28AE00B1D72C /* PokemonGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokemonGridTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AAB64FA159E28AD00B1D72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB6502159E28AE00B1D72C /* UIKit.framework in Frameworks */,
+				1AAB6504159E28AE00B1D72C /* Foundation.framework in Frameworks */,
+				1AAB6506159E28AE00B1D72C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB651D159E28AE00B1D72C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB6523159E28AE00B1D72C /* SenTestingKit.framework in Frameworks */,
+				1AAB6524159E28AE00B1D72C /* UIKit.framework in Frameworks */,
+				1AAB6525159E28AE00B1D72C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AAB64F2159E28AD00B1D72C = {
+			isa = PBXGroup;
+			children = (
+				1AAB6507159E28AE00B1D72C /* PokemonGrid */,
+				1AAB6528159E28AE00B1D72C /* PokemonGridTests */,
+				1AAB6500159E28AE00B1D72C /* Frameworks */,
+				1AAB64FE159E28AD00B1D72C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AAB64FE159E28AD00B1D72C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB64FD159E28AD00B1D72C /* PokemonGrid.app */,
+				1AAB6521159E28AE00B1D72C /* PokemonGridTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AAB6500159E28AE00B1D72C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB6501159E28AE00B1D72C /* UIKit.framework */,
+				1AAB6503159E28AE00B1D72C /* Foundation.framework */,
+				1AAB6505159E28AE00B1D72C /* CoreGraphics.framework */,
+				1AAB6522159E28AE00B1D72C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AAB6507159E28AE00B1D72C /* PokemonGrid */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB6510159E28AE00B1D72C /* AppDelegate.h */,
+				1AAB6511159E28AE00B1D72C /* AppDelegate.m */,
+				1AAB6513159E28AE00B1D72C /* MainStoryboard.storyboard */,
+				1AAB6516159E28AE00B1D72C /* MainViewController.h */,
+				1AAB6517159E28AE00B1D72C /* MainViewController.m */,
+				1AAB6519159E28AE00B1D72C /* FlipsideViewController.h */,
+				1AAB651A159E28AE00B1D72C /* FlipsideViewController.m */,
+				1AAB6508159E28AE00B1D72C /* Supporting Files */,
+			);
+			path = PokemonGrid;
+			sourceTree = "<group>";
+		};
+		1AAB6508159E28AE00B1D72C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB6509159E28AE00B1D72C /* PokemonGrid-Info.plist */,
+				1AAB650A159E28AE00B1D72C /* InfoPlist.strings */,
+				1AAB650D159E28AE00B1D72C /* main.m */,
+				1AAB650F159E28AE00B1D72C /* PokemonGrid-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AAB6528159E28AE00B1D72C /* PokemonGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB652E159E28AE00B1D72C /* PokemonGridTests.h */,
+				1AAB652F159E28AE00B1D72C /* PokemonGridTests.m */,
+				1AAB6529159E28AE00B1D72C /* Supporting Files */,
+			);
+			path = PokemonGridTests;
+			sourceTree = "<group>";
+		};
+		1AAB6529159E28AE00B1D72C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AAB652A159E28AE00B1D72C /* PokemonGridTests-Info.plist */,
+				1AAB652B159E28AE00B1D72C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AAB64FC159E28AD00B1D72C /* PokemonGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AAB6533159E28AE00B1D72C /* Build configuration list for PBXNativeTarget "PokemonGrid" */;
+			buildPhases = (
+				1AAB64F9159E28AD00B1D72C /* Sources */,
+				1AAB64FA159E28AD00B1D72C /* Frameworks */,
+				1AAB64FB159E28AD00B1D72C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PokemonGrid;
+			productName = PokemonGrid;
+			productReference = 1AAB64FD159E28AD00B1D72C /* PokemonGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AAB6520159E28AE00B1D72C /* PokemonGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AAB6536159E28AE00B1D72C /* Build configuration list for PBXNativeTarget "PokemonGridTests" */;
+			buildPhases = (
+				1AAB651C159E28AE00B1D72C /* Sources */,
+				1AAB651D159E28AE00B1D72C /* Frameworks */,
+				1AAB651E159E28AE00B1D72C /* Resources */,
+				1AAB651F159E28AE00B1D72C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AAB6527159E28AE00B1D72C /* PBXTargetDependency */,
+			);
+			name = PokemonGridTests;
+			productName = PokemonGridTests;
+			productReference = 1AAB6521159E28AE00B1D72C /* PokemonGridTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AAB64F4159E28AD00B1D72C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Clickable Bliss";
+			};
+			buildConfigurationList = 1AAB64F7159E28AD00B1D72C /* Build configuration list for PBXProject "PokemonGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1AAB64F2159E28AD00B1D72C;
+			productRefGroup = 1AAB64FE159E28AD00B1D72C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AAB64FC159E28AD00B1D72C /* PokemonGrid */,
+				1AAB6520159E28AE00B1D72C /* PokemonGridTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AAB64FB159E28AD00B1D72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB650C159E28AE00B1D72C /* InfoPlist.strings in Resources */,
+				1AAB6515159E28AE00B1D72C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB651E159E28AE00B1D72C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB652D159E28AE00B1D72C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AAB651F159E28AE00B1D72C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AAB64F9159E28AD00B1D72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB650E159E28AE00B1D72C /* main.m in Sources */,
+				1AAB6512159E28AE00B1D72C /* AppDelegate.m in Sources */,
+				1AAB6518159E28AE00B1D72C /* MainViewController.m in Sources */,
+				1AAB651B159E28AE00B1D72C /* FlipsideViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AAB651C159E28AE00B1D72C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AAB6530159E28AE00B1D72C /* PokemonGridTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AAB6527159E28AE00B1D72C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AAB64FC159E28AD00B1D72C /* PokemonGrid */;
+			targetProxy = 1AAB6526159E28AE00B1D72C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AAB650A159E28AE00B1D72C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AAB650B159E28AE00B1D72C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1AAB6513159E28AE00B1D72C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AAB6514159E28AE00B1D72C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		1AAB652B159E28AE00B1D72C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AAB652C159E28AE00B1D72C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AAB6531159E28AE00B1D72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1AAB6532159E28AE00B1D72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AAB6534159E28AE00B1D72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PokemonGrid/PokemonGrid-Prefix.pch";
+				INFOPLIST_FILE = "PokemonGrid/PokemonGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1AAB6535159E28AE00B1D72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PokemonGrid/PokemonGrid-Prefix.pch";
+				INFOPLIST_FILE = "PokemonGrid/PokemonGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		1AAB6537159E28AE00B1D72C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PokemonGrid.app/PokemonGrid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PokemonGrid/PokemonGrid-Prefix.pch";
+				INFOPLIST_FILE = "PokemonGridTests/PokemonGridTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		1AAB6538159E28AE00B1D72C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PokemonGrid.app/PokemonGrid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PokemonGrid/PokemonGrid-Prefix.pch";
+				INFOPLIST_FILE = "PokemonGridTests/PokemonGridTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AAB64F7159E28AD00B1D72C /* Build configuration list for PBXProject "PokemonGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAB6531159E28AE00B1D72C /* Debug */,
+				1AAB6532159E28AE00B1D72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AAB6533159E28AE00B1D72C /* Build configuration list for PBXNativeTarget "PokemonGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAB6534159E28AE00B1D72C /* Debug */,
+				1AAB6535159E28AE00B1D72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1AAB6536159E28AE00B1D72C /* Build configuration list for PBXNativeTarget "PokemonGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AAB6537159E28AE00B1D72C /* Debug */,
+				1AAB6538159E28AE00B1D72C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AAB64F4159E28AD00B1D72C /* Project object */;
+}
