@@ -21,6 +21,7 @@
 		1AAB6525159E28AE00B1D72C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AAB6503159E28AE00B1D72C /* Foundation.framework */; };
 		1AAB652D159E28AE00B1D72C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1AAB652B159E28AE00B1D72C /* InfoPlist.strings */; };
 		1AAB6530159E28AE00B1D72C /* PokemonGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB652F159E28AE00B1D72C /* PokemonGridTests.m */; };
+		1AAB653B159E2A8F00B1D72C /* PokemonGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AAB653A159E2A8F00B1D72C /* PokemonGridViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,23 +39,25 @@
 		1AAB6501159E28AE00B1D72C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		1AAB6503159E28AE00B1D72C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1AAB6505159E28AE00B1D72C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		1AAB6509159E28AE00B1D72C /* PokemonGrid-Info.plist */ = {isa = PBXFileReference; path = "PokemonGrid-Info.plist"; sourceTree = "<group>"; };
+		1AAB6509159E28AE00B1D72C /* PokemonGrid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PokemonGrid-Info.plist"; sourceTree = "<group>"; };
 		1AAB650B159E28AE00B1D72C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1AAB650D159E28AE00B1D72C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		1AAB650F159E28AE00B1D72C /* PokemonGrid-Prefix.pch */ = {isa = PBXFileReference; path = "PokemonGrid-Prefix.pch"; sourceTree = "<group>"; };
-		1AAB6510159E28AE00B1D72C /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		1AAB650F159E28AE00B1D72C /* PokemonGrid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PokemonGrid-Prefix.pch"; sourceTree = "<group>"; };
+		1AAB6510159E28AE00B1D72C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1AAB6511159E28AE00B1D72C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1AAB6514159E28AE00B1D72C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		1AAB6516159E28AE00B1D72C /* MainViewController.h */ = {isa = PBXFileReference; path = MainViewController.h; sourceTree = "<group>"; };
+		1AAB6516159E28AE00B1D72C /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		1AAB6517159E28AE00B1D72C /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		1AAB6519159E28AE00B1D72C /* FlipsideViewController.h */ = {isa = PBXFileReference; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		1AAB6519159E28AE00B1D72C /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
 		1AAB651A159E28AE00B1D72C /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
 		1AAB6521159E28AE00B1D72C /* PokemonGridTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PokemonGridTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AAB6522159E28AE00B1D72C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		1AAB652A159E28AE00B1D72C /* PokemonGridTests-Info.plist */ = {isa = PBXFileReference; path = "PokemonGridTests-Info.plist"; sourceTree = "<group>"; };
+		1AAB652A159E28AE00B1D72C /* PokemonGridTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PokemonGridTests-Info.plist"; sourceTree = "<group>"; };
 		1AAB652C159E28AE00B1D72C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1AAB652E159E28AE00B1D72C /* PokemonGridTests.h */ = {isa = PBXFileReference; path = PokemonGridTests.h; sourceTree = "<group>"; };
+		1AAB652E159E28AE00B1D72C /* PokemonGridTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PokemonGridTests.h; sourceTree = "<group>"; };
 		1AAB652F159E28AE00B1D72C /* PokemonGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PokemonGridTests.m; sourceTree = "<group>"; };
+		1AAB6539159E2A8F00B1D72C /* PokemonGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PokemonGridViewController.h; path = source/PokemonGridViewController.h; sourceTree = "<group>"; };
+		1AAB653A159E2A8F00B1D72C /* PokemonGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PokemonGridViewController.m; path = source/PokemonGridViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +119,8 @@
 			children = (
 				1AAB6510159E28AE00B1D72C /* AppDelegate.h */,
 				1AAB6511159E28AE00B1D72C /* AppDelegate.m */,
+				1AAB6539159E2A8F00B1D72C /* PokemonGridViewController.h */,
+				1AAB653A159E2A8F00B1D72C /* PokemonGridViewController.m */,
 				1AAB6513159E28AE00B1D72C /* MainStoryboard.storyboard */,
 				1AAB6516159E28AE00B1D72C /* MainViewController.h */,
 				1AAB6517159E28AE00B1D72C /* MainViewController.m */,
@@ -267,6 +272,7 @@
 				1AAB6512159E28AE00B1D72C /* AppDelegate.m in Sources */,
 				1AAB6518159E28AE00B1D72C /* MainViewController.m in Sources */,
 				1AAB651B159E28AE00B1D72C /* FlipsideViewController.m in Sources */,
+				1AAB653B159E2A8F00B1D72C /* PokemonGridViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
